@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="snaprime-g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4fb8b2"/>
+      <stop offset="1" stop-color="#2f6a4a"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#snaprime-g)"/>
+  <path d="M32 9.5 C34.9 23 41 29.1 54.5 32 C41 34.9 34.9 41 32 54.5 C29.1 41 23 34.9 9.5 32 C23 29.1 29.1 23 32 9.5 Z" fill="#ffffff"/>
+  <path d="M47.5 10.5 C48.6 15.4 50.6 17.4 55.5 18.5 C50.6 19.6 48.6 21.6 47.5 26.5 C46.4 21.6 44.4 19.6 39.5 18.5 C44.4 17.4 46.4 15.4 47.5 10.5 Z" fill="#dff3ec" opacity="0.95"/>
+</svg>

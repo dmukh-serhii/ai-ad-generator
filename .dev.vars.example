@@ -1,0 +1,7 @@
+# Copy to .dev.vars for local development (never commit .dev.vars).
+# Get a free key at https://aistudio.google.com/apikey
+GEMINI_API_KEY=your-gemini-api-key
+
+# Optional overrides (defaults come from wrangler.jsonc "vars"):
+# PUBLIC_USER_ID=u-test-0001
+# PUBLIC_LIMIT_PER_HOUR=5

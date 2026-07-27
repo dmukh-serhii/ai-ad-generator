@@ -1,0 +1,26 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "snaprime",
+  "compatibility_date": "2025-09-02",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "@tanstack/react-start/server-entry",
+  "workers_dev": true,
+  "browser": {
+    "binding": "BROWSER"
+  },
+  "vars": {
+    "GEMINI_MODEL": "gemini-2.5-flash",
+    // Identity recorded in usage_events for anonymous (not logged in) visitors.
+    "PUBLIC_USER_ID": "u-test-0001",
+    // Generator API calls allowed per IP per hour on the public demo.
+    "PUBLIC_LIMIT_PER_HOUR": "12"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "snaprime-db",
+      "database_id": "0224fabb-7948-4ca9-9356-b16af1d04a4f",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
